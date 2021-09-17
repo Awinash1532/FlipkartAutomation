@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 19 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\awinashjha\Eclipse Workspace\Cucumber\MavenCucu\ExitTest_Assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>8 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 19 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ProductTest" class="method navigator-link" hash-for-method="ADDtoCart(awinash1532@gmail.com, closedeye09, iphone 12, Yes)">ADDtoCart(awinash1532@gmail.com, closedeye09, iphone 12, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.TopOffersTest" class="method navigator-link" hash-for-method="Check_Electronics">Check_Electronics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ProductTest" class="method navigator-link" hash-for-method="DeleteFromCart(awinash1532@gmail.com, closedeye09, Yes)">DeleteFromCart(awinash1532@gmail.com, closedeye09, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ExtraFeaturesTest" class="method navigator-link" hash-for-method="Flipkart_Stories">Flipkart_Stories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="InvalidLogin(awinash1532@gmail.com, closedeye, Yes)">InvalidLogin(awinash1532@gmail.com, closedeye, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="InvalidLogin(closed, closed, Yes)">InvalidLogin(closed, closed, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="InvalidLogin(aman, closedeye09, Yes)">InvalidLogin(aman, closedeye09, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="No_ID_Passwrd_InvalidLogin(Yes)">No_ID_Passwrd_InvalidLogin(Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ExtraFeaturesTest" class="method navigator-link" hash-for-method="Other_Issue">Other_Issue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.Without_LoginProductTest" class="method navigator-link" hash-for-method="Product_Search">Product_Search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.RegisterTest" class="method navigator-link" hash-for-method="Register(Yes)">Register(Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ProductTest" class="method navigator-link" hash-for-method="SearchProduct(awinash1532@gmail.com, closedeye09, watch, Yes)">SearchProduct(awinash1532@gmail.com, closedeye09, watch, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ExtraFeaturesTest" class="method navigator-link" hash-for-method="Security_Policy">Security_Policy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.ExtraFeaturesTest" class="method navigator-link" hash-for-method="Signup">Signup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.TopOffersTest" class="method navigator-link" hash-for-method="TopOffers_check">TopOffers_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LoginTest" class="method navigator-link" hash-for-method="ValidLogin(awinash1532@gmail.com, closedeye09, Yes)">ValidLogin(awinash1532@gmail.com, closedeye09, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.AddressTest" class="method navigator-link" hash-for-method="add_Address(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64)">add_Address(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.AddressTest" class="method navigator-link" hash-for-method="delete_address(awinash1532@gmail.com, closedeye09, Yes)">delete_address(awinash1532@gmail.com, closedeye09, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Tests.LogoutTest" class="method navigator-link" hash-for-method="logout(awinash1532@gmail.com, closedeye09, Yes)">logout(awinash1532@gmail.com, closedeye09, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.TopOffersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Electronics">
+                  </a> <!-- Check_Electronics -->
+                  <span class="method-name">Check_Electronics</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.TopOffersTest.extent&quot; is null
+	at Tests.TopOffersTest.Check_Electronics(TopOffersTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TopOffers_check">
+                  </a> <!-- TopOffers_check -->
+                  <span class="method-name">TopOffers_check</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.TopOffersTest.extent&quot; is null
+	at Tests.TopOffersTest.TopOffers_check(TopOffersTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout(awinash1532@gmail.com, closedeye09, Yes)">
+                  </a> <!-- logout(awinash1532@gmail.com, closedeye09, Yes) -->
+                  <span class="method-name">logout</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LogoutTest.extent&quot; is null
+	at Tests.LogoutTest.logout(LogoutTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register(Yes)">
+                  </a> <!-- Register(Yes) -->
+                  <span class="method-name">Register</span>
+                  <span class="parameters">(Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.RegisterTest.extent&quot; is null
+	at Tests.RegisterTest.Register(RegisterTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLogin(awinash1532@gmail.com, closedeye, Yes)">
+                  </a> <!-- InvalidLogin(awinash1532@gmail.com, closedeye, Yes) -->
+                  <span class="method-name">InvalidLogin</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LoginTest.extent&quot; is null
+	at Tests.LoginTest.InvalidLogin(LoginTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLogin(closed, closed, Yes)">
+                  </a> <!-- InvalidLogin(closed, closed, Yes) -->
+                  <span class="method-name">InvalidLogin</span>
+                  <span class="parameters">(closed, closed, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LoginTest.extent&quot; is null
+	at Tests.LoginTest.InvalidLogin(LoginTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidLogin(aman, closedeye09, Yes)">
+                  </a> <!-- InvalidLogin(aman, closedeye09, Yes) -->
+                  <span class="method-name">InvalidLogin</span>
+                  <span class="parameters">(aman, closedeye09, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LoginTest.extent&quot; is null
+	at Tests.LoginTest.InvalidLogin(LoginTest.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="No_ID_Passwrd_InvalidLogin(Yes)">
+                  </a> <!-- No_ID_Passwrd_InvalidLogin(Yes) -->
+                  <span class="method-name">No_ID_Passwrd_InvalidLogin</span>
+                  <span class="parameters">(Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LoginTest.extent&quot; is null
+	at Tests.LoginTest.No_ID_Passwrd_InvalidLogin(LoginTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidLogin(awinash1532@gmail.com, closedeye09, Yes)">
+                  </a> <!-- ValidLogin(awinash1532@gmail.com, closedeye09, Yes) -->
+                  <span class="method-name">ValidLogin</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.LoginTest.extent&quot; is null
+	at Tests.LoginTest.ValidLogin(LoginTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.AddressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_Address(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64)">
+                  </a> <!-- add_Address(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64) -->
+                  <span class="method-name">add_Address</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.AddressTest.extent&quot; is null
+	at Tests.AddressTest.add_Address(AddressTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete_address(awinash1532@gmail.com, closedeye09, Yes)">
+                  </a> <!-- delete_address(awinash1532@gmail.com, closedeye09, Yes) -->
+                  <span class="method-name">delete_address</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.AddressTest.extent&quot; is null
+	at Tests.AddressTest.delete_address(AddressTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.Without_LoginProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product_Search">
+                  </a> <!-- Product_Search -->
+                  <span class="method-name">Product_Search</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.Without_LoginProductTest.extent&quot; is null
+	at Tests.Without_LoginProductTest.Product_Search(Without_LoginProductTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.ExtraFeaturesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Flipkart_Stories">
+                  </a> <!-- Flipkart_Stories -->
+                  <span class="method-name">Flipkart_Stories</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ExtraFeaturesTest.extent&quot; is null
+	at Tests.ExtraFeaturesTest.Flipkart_Stories(ExtraFeaturesTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Other_Issue">
+                  </a> <!-- Other_Issue -->
+                  <span class="method-name">Other_Issue</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ExtraFeaturesTest.extent&quot; is null
+	at Tests.ExtraFeaturesTest.Other_Issue(ExtraFeaturesTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Security_Policy">
+                  </a> <!-- Security_Policy -->
+                  <span class="method-name">Security_Policy</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ExtraFeaturesTest.extent&quot; is null
+	at Tests.ExtraFeaturesTest.Security_Policy(ExtraFeaturesTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Signup">
+                  </a> <!-- Signup -->
+                  <span class="method-name">Signup</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ExtraFeaturesTest.extent&quot; is null
+	at Tests.ExtraFeaturesTest.Signup(ExtraFeaturesTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ADDtoCart(awinash1532@gmail.com, closedeye09, iphone 12, Yes)">
+                  </a> <!-- ADDtoCart(awinash1532@gmail.com, closedeye09, iphone 12, Yes) -->
+                  <span class="method-name">ADDtoCart</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, iphone 12, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ProductTest.extent&quot; is null
+	at Tests.ProductTest.ADDtoCart(ProductTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteFromCart(awinash1532@gmail.com, closedeye09, Yes)">
+                  </a> <!-- DeleteFromCart(awinash1532@gmail.com, closedeye09, Yes) -->
+                  <span class="method-name">DeleteFromCart</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ProductTest.extent&quot; is null
+	at Tests.ProductTest.DeleteFromCart(ProductTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProduct(awinash1532@gmail.com, closedeye09, watch, Yes)">
+                  </a> <!-- SearchProduct(awinash1532@gmail.com, closedeye09, watch, Yes) -->
+                  <span class="method-name">SearchProduct</span>
+                  <span class="parameters">(awinash1532@gmail.com, closedeye09, watch, Yes)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because &quot;Tests.ProductTest.extent&quot; is null
+	at Tests.ProductTest.SearchProduct(ProductTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\awinashjha\Eclipse Workspace\Cucumber\MavenCucu\ExitTest_Assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;travel&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Tests.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;Tests.TravelTest&quot;/&gt;
+      &lt;class name=&quot;Tests.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;Tests.ProductTest&quot;/&gt;
+      &lt;class name=&quot;Utils.Excel_DataProvider&quot;/&gt;
+      &lt;class name=&quot;Tests.Without_LoginProductTest&quot;/&gt;
+      &lt;class name=&quot;Tests.AddressTest&quot;/&gt;
+      &lt;class name=&quot;Tests.TopOffersTest&quot;/&gt;
+      &lt;class name=&quot;Tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;Tests.ExtraFeaturesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">address</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">add_Address</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">delete_address</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">extra</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Flipkart_Stories</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Other_Issue</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Security_Policy</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Signup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">InvalidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">No_ID_Passwrd_InvalidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">offers</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Check_Electronics</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TopOffers_check</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">product</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ADDtoCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SearchProduct</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Register</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">withoutProduct</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Product_Search</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'logout')
+data.setCell(0, 2, 'Tests.LogoutTest')
+data.setCell(0, 3, 17);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TopOffers_check')
+data.setCell(1, 2, 'Tests.TopOffersTest')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidLogin')
+data.setCell(2, 2, 'Tests.LoginTest')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ADDtoCart')
+data.setCell(3, 2, 'Tests.ProductTest')
+data.setCell(3, 3, 2);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Check_Electronics')
+data.setCell(4, 2, 'Tests.TopOffersTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'InvalidLogin')
+data.setCell(5, 2, 'Tests.LoginTest')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'InvalidLogin')
+data.setCell(6, 2, 'Tests.LoginTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Flipkart_Stories')
+data.setCell(7, 2, 'Tests.ExtraFeaturesTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Register')
+data.setCell(8, 2, 'Tests.RegisterTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SearchProduct')
+data.setCell(9, 2, 'Tests.ProductTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'delete_address')
+data.setCell(10, 2, 'Tests.AddressTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DeleteFromCart')
+data.setCell(11, 2, 'Tests.ProductTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Security_Policy')
+data.setCell(12, 2, 'Tests.ExtraFeaturesTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Signup')
+data.setCell(13, 2, 'Tests.ExtraFeaturesTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'No_ID_Passwrd_InvalidLogin')
+data.setCell(14, 2, 'Tests.LoginTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Product_Search')
+data.setCell(15, 2, 'Tests.Without_LoginProductTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'add_Address')
+data.setCell(16, 2, 'Tests.AddressTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'InvalidLogin')
+data.setCell(17, 2, 'Tests.LoginTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Other_Issue')
+data.setCell(18, 2, 'Tests.ExtraFeaturesTest')
+data.setCell(18, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.TravelTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">RoundWAYTravel_Check</span>
+                <br/>
+                <span class="ignored-method-name">OneWAYTravel_Check</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logout(awinash1532@gmail.com, closedeye09, Yes)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Register(Yes)</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SearchProduct(awinash1532@gmail.com, closedeye09, watch, Yes)</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ADDtoCart(awinash1532@gmail.com, closedeye09, iphone 12, Yes)</span>
+                <span class="method-start">251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DeleteFromCart(awinash1532@gmail.com, closedeye09, Yes)</span>
+                <span class="method-start">322 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.Without_LoginProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Product_Search</span>
+                <span class="method-start">325 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.AddressTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">add_Address(awinash1532@gmail.com, closedeye09, Yes, Exit Test, Alpha2, 2nd floor,I-64)</span>
+                <span class="method-start">394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">delete_address(awinash1532@gmail.com, closedeye09, Yes)</span>
+                <span class="method-start">455 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.TopOffersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TopOffers_check</span>
+                <span class="method-start">459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Check_Electronics</span>
+                <span class="method-start">463 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">ValidLogin(awinash1532@gmail.com, closedeye09, Yes)</span>
+                <span class="method-start">523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InvalidLogin(awinash1532@gmail.com, closedeye, Yes)</span>
+                <span class="method-start">584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InvalidLogin(aman, closedeye09, Yes)</span>
+                <span class="method-start">588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">InvalidLogin(closed, closed, Yes)</span>
+                <span class="method-start">590 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">No_ID_Passwrd_InvalidLogin(Yes)</span>
+                <span class="method-start">652 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Tests.ExtraFeaturesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Security_Policy</span>
+                <span class="method-start">655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Flipkart_Stories</span>
+                <span class="method-start">658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Signup</span>
+                <span class="method-start">662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Other_Issue</span>
+                <span class="method-start">664 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

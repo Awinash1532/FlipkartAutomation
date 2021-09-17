@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  	<run>
+  		<include name="login" />
+  		<include name="address" />
+  		<include name="extra" />
+  		<include name="logout" />
+  		<include name="product" />
+  		<include name="register" />
+  		<include name="offers" />
+  		<include name="travel" />
+  		<include name="withoutProduct" /> 
+  	</run>
+  </groups>
+    <classes>
+      <class name="Tests.LogoutTest"/>
+      <class name="Tests.TravelTest"/>
+      <class name="Tests.RegisterTest"/>
+      <class name="Tests.ProductTest"/>
+      <class name="Utils.Excel_DataProvider"/>
+      <class name="Tests.Without_LoginProductTest"/>
+      <class name="Tests.AddressTest"/>
+      <class name="Tests.TopOffersTest"/>
+      <class name="Tests.LoginTest"/>
+      <class name="Tests.ExtraFeaturesTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

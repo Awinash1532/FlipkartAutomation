@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="travel"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.TopOffersTest">
+        <methods>
+          <include name="Check_Electronics"/>
+          <include name="TopOffers_check"/>
+        </methods>
+      </class> <!-- Tests.TopOffersTest -->
+      <class name="Tests.LogoutTest">
+        <methods>
+          <include name="logout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.LogoutTest -->
+      <class name="Tests.RegisterTest">
+        <methods>
+          <include name="Register" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.RegisterTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="InvalidLogin" invocation-numbers="0 1 2"/>
+          <include name="No_ID_Passwrd_InvalidLogin" invocation-numbers="0"/>
+          <include name="ValidLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+      <class name="Tests.AddressTest">
+        <methods>
+          <include name="delete_address" invocation-numbers="0"/>
+          <include name="add_Address" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.AddressTest -->
+      <class name="Tests.Without_LoginProductTest">
+        <methods>
+          <include name="Product_Search"/>
+        </methods>
+      </class> <!-- Tests.Without_LoginProductTest -->
+      <class name="Tests.ExtraFeaturesTest">
+        <methods>
+          <include name="Other_Issue"/>
+          <include name="Flipkart_Stories"/>
+          <include name="Security_Policy"/>
+          <include name="Signup"/>
+        </methods>
+      </class> <!-- Tests.ExtraFeaturesTest -->
+      <class name="Tests.ProductTest">
+        <methods>
+          <include name="DeleteFromCart" invocation-numbers="0"/>
+          <include name="ADDtoCart" invocation-numbers="0"/>
+          <include name="SearchProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.ProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
